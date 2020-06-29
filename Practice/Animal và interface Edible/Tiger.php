@@ -1,5 +1,5 @@
 <?php
-include_once "Animal.php";
+//include_once "Animal.php";
 
 class Tiger extends Animal
 {

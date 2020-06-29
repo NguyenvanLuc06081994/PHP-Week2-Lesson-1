@@ -11,11 +11,10 @@ class ComparableCircle extends Circle implements Comparable
 
     public function compareTo($otherCircle)
     {
-        $otherCircleRadius = $otherCircle->getRadius();
-        if ($this->getRadius() < $otherCircleRadius) {
-            return -1;
-        } else if ($this->getRadius() > $otherCircleRadius) {
+        if ($this->getRadius() > $otherCircle->getRadius()) {
             return 1;
+        } elseif ($this->getRadius() < $otherCircle->getRadius()) {
+            return -1;
         } else {
             return 0;
         }

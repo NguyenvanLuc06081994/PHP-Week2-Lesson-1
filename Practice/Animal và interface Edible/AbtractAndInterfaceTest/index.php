@@ -1,4 +1,5 @@
 <?php
+include_once ("../Animal.php");
 include_once "../Chicken.php";
 include_once "../Tiger.php";
 include_once "../InterFace/Orange.php";
