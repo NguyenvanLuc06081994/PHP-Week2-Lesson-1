@@ -2,7 +2,7 @@
 
 include_once "Resizeable.php";
 
-class Square implements Resizeable
+class Square implements Resizeable1
 {
     protected $name;
     protected $width;

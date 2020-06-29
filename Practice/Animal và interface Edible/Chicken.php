@@ -1,7 +1,7 @@
 <?php
-//include_once "Animal.php";
+//include_once "Animal1.php";
 include_once "InterFace/Edible.php";
-class Chicken extends Animal implements Edible {
+class Chicken extends Animal1 implements Edible1 {
     public function makeSound(): string
     {
         return "chiken : cuccu cuccu";

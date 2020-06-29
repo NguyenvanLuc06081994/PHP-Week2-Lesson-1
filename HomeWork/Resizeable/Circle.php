@@ -2,7 +2,7 @@
 
 include_once "Resizeable.php";
 
-class Circle implements Resizeable
+class Circle implements Resizeable1
 {
     protected $name;
     protected $radius;

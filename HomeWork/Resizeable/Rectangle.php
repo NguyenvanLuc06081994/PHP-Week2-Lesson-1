@@ -1,7 +1,7 @@
 <?php
 include_once "Resizeable.php";
 
-class Rectangle implements Resizeable
+class Rectangle implements Resizeable1
 {
     protected $name;
     protected $width;
